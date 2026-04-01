@@ -8,6 +8,7 @@ Repository containing the raw testing logs, evaluation metrics, and comparative 
 - [2. Results](#2-results)
   - [2.1 Summary Metrics Tables](#21-summary-metrics-tables)
   - [2.2 Comprehensive Analysis of Evaluation Results](#22-comprehensive-analysis-of-evaluation-results)
+  - [2.3 Confusion Matrices](#23-confusion-matrices)
 - [3. Conclusions](#3-conclusions)
 - [List of Tables](#list-of-tables)
 - [List of Figures](#list-of-figures)
@@ -1045,6 +1046,509 @@ Below is a detailed breakdown and analysis of every graph generated during the m
 ![Id Vs Ood Ece U0](ood_vs_id/id_vs_ood_ece_u0.png)
 
 **Analysis:** This graph presents the Expected Calibration Error (ECE), quantifying how well the predicted probabilities align with the actual observed frequencies. Here, uncertain labels are mapped to negative (0), which represents a more conservative clinical assumption and tests the model's robustness against ambiguous ground truths. By directly comparing In-Distribution (ID) and Out-Of-Distribution (OOD) performance, this graph highlights the generalization gap and potential domain shift vulnerabilities of the models. Overall, this graph is a vital component of the holistic evaluation framework, contributing to a multi-faceted understanding of model reliability and clinical readiness.
+
+
+### 2.3 Confusion Matrices
+
+#### RESULTS_ID - densenet121-res224-all - Atelectasis
+
+![RESULTS_ID - densenet121-res224-all - Atelectasis](results_id/confusion matrix/densenet121-res224-all/cm_Atelectasis.png)
+
+#### RESULTS_ID - densenet121-res224-all - Cardiomegaly
+
+![RESULTS_ID - densenet121-res224-all - Cardiomegaly](results_id/confusion matrix/densenet121-res224-all/cm_Cardiomegaly.png)
+
+#### RESULTS_ID - densenet121-res224-all - Consolidation
+
+![RESULTS_ID - densenet121-res224-all - Consolidation](results_id/confusion matrix/densenet121-res224-all/cm_Consolidation.png)
+
+#### RESULTS_ID - densenet121-res224-all - Edema
+
+![RESULTS_ID - densenet121-res224-all - Edema](results_id/confusion matrix/densenet121-res224-all/cm_Edema.png)
+
+#### RESULTS_ID - densenet121-res224-all - Effusion
+
+![RESULTS_ID - densenet121-res224-all - Effusion](results_id/confusion matrix/densenet121-res224-all/cm_Effusion.png)
+
+#### RESULTS_ID - densenet121-res224-all - Emphysema
+
+![RESULTS_ID - densenet121-res224-all - Emphysema](results_id/confusion matrix/densenet121-res224-all/cm_Emphysema.png)
+
+#### RESULTS_ID - densenet121-res224-all - Fibrosis
+
+![RESULTS_ID - densenet121-res224-all - Fibrosis](results_id/confusion matrix/densenet121-res224-all/cm_Fibrosis.png)
+
+#### RESULTS_ID - densenet121-res224-all - Hernia
+
+![RESULTS_ID - densenet121-res224-all - Hernia](results_id/confusion matrix/densenet121-res224-all/cm_Hernia.png)
+
+#### RESULTS_ID - densenet121-res224-all - Infiltration
+
+![RESULTS_ID - densenet121-res224-all - Infiltration](results_id/confusion matrix/densenet121-res224-all/cm_Infiltration.png)
+
+#### RESULTS_ID - densenet121-res224-all - Mass
+
+![RESULTS_ID - densenet121-res224-all - Mass](results_id/confusion matrix/densenet121-res224-all/cm_Mass.png)
+
+#### RESULTS_ID - densenet121-res224-all - Nodule
+
+![RESULTS_ID - densenet121-res224-all - Nodule](results_id/confusion matrix/densenet121-res224-all/cm_Nodule.png)
+
+#### RESULTS_ID - densenet121-res224-all - Pleural Thickening
+
+![RESULTS_ID - densenet121-res224-all - Pleural Thickening](results_id/confusion matrix/densenet121-res224-all/cm_Pleural_Thickening.png)
+
+#### RESULTS_ID - densenet121-res224-all - Pneumonia
+
+![RESULTS_ID - densenet121-res224-all - Pneumonia](results_id/confusion matrix/densenet121-res224-all/cm_Pneumonia.png)
+
+#### RESULTS_ID - densenet121-res224-all - Pneumothorax
+
+![RESULTS_ID - densenet121-res224-all - Pneumothorax](results_id/confusion matrix/densenet121-res224-all/cm_Pneumothorax.png)
+
+#### RESULTS_ID - densenet121-res224-all - grid all pathologies
+
+![RESULTS_ID - densenet121-res224-all - grid all pathologies](results_id/confusion matrix/densenet121-res224-all/cm_grid_all_pathologies.png)
+
+#### RESULTS_ID - densenet121-res224-all - overall aggregated
+
+![RESULTS_ID - densenet121-res224-all - overall aggregated](results_id/confusion matrix/densenet121-res224-all/cm_overall_aggregated.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Atelectasis
+
+![RESULTS_ID - densenet121-res224-nih - Atelectasis](results_id/confusion matrix/densenet121-res224-nih/cm_Atelectasis.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Cardiomegaly
+
+![RESULTS_ID - densenet121-res224-nih - Cardiomegaly](results_id/confusion matrix/densenet121-res224-nih/cm_Cardiomegaly.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Consolidation
+
+![RESULTS_ID - densenet121-res224-nih - Consolidation](results_id/confusion matrix/densenet121-res224-nih/cm_Consolidation.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Edema
+
+![RESULTS_ID - densenet121-res224-nih - Edema](results_id/confusion matrix/densenet121-res224-nih/cm_Edema.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Effusion
+
+![RESULTS_ID - densenet121-res224-nih - Effusion](results_id/confusion matrix/densenet121-res224-nih/cm_Effusion.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Emphysema
+
+![RESULTS_ID - densenet121-res224-nih - Emphysema](results_id/confusion matrix/densenet121-res224-nih/cm_Emphysema.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Fibrosis
+
+![RESULTS_ID - densenet121-res224-nih - Fibrosis](results_id/confusion matrix/densenet121-res224-nih/cm_Fibrosis.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Hernia
+
+![RESULTS_ID - densenet121-res224-nih - Hernia](results_id/confusion matrix/densenet121-res224-nih/cm_Hernia.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Infiltration
+
+![RESULTS_ID - densenet121-res224-nih - Infiltration](results_id/confusion matrix/densenet121-res224-nih/cm_Infiltration.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Mass
+
+![RESULTS_ID - densenet121-res224-nih - Mass](results_id/confusion matrix/densenet121-res224-nih/cm_Mass.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Nodule
+
+![RESULTS_ID - densenet121-res224-nih - Nodule](results_id/confusion matrix/densenet121-res224-nih/cm_Nodule.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Pleural Thickening
+
+![RESULTS_ID - densenet121-res224-nih - Pleural Thickening](results_id/confusion matrix/densenet121-res224-nih/cm_Pleural_Thickening.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Pneumonia
+
+![RESULTS_ID - densenet121-res224-nih - Pneumonia](results_id/confusion matrix/densenet121-res224-nih/cm_Pneumonia.png)
+
+#### RESULTS_ID - densenet121-res224-nih - Pneumothorax
+
+![RESULTS_ID - densenet121-res224-nih - Pneumothorax](results_id/confusion matrix/densenet121-res224-nih/cm_Pneumothorax.png)
+
+#### RESULTS_ID - densenet121-res224-nih - grid all pathologies
+
+![RESULTS_ID - densenet121-res224-nih - grid all pathologies](results_id/confusion matrix/densenet121-res224-nih/cm_grid_all_pathologies.png)
+
+#### RESULTS_ID - densenet121-res224-nih - overall aggregated
+
+![RESULTS_ID - densenet121-res224-nih - overall aggregated](results_id/confusion matrix/densenet121-res224-nih/cm_overall_aggregated.png)
+
+#### RESULTS_ID - resnet50-res512-all - Atelectasis
+
+![RESULTS_ID - resnet50-res512-all - Atelectasis](results_id/confusion matrix/resnet50-res512-all/cm_Atelectasis.png)
+
+#### RESULTS_ID - resnet50-res512-all - Cardiomegaly
+
+![RESULTS_ID - resnet50-res512-all - Cardiomegaly](results_id/confusion matrix/resnet50-res512-all/cm_Cardiomegaly.png)
+
+#### RESULTS_ID - resnet50-res512-all - Consolidation
+
+![RESULTS_ID - resnet50-res512-all - Consolidation](results_id/confusion matrix/resnet50-res512-all/cm_Consolidation.png)
+
+#### RESULTS_ID - resnet50-res512-all - Edema
+
+![RESULTS_ID - resnet50-res512-all - Edema](results_id/confusion matrix/resnet50-res512-all/cm_Edema.png)
+
+#### RESULTS_ID - resnet50-res512-all - Effusion
+
+![RESULTS_ID - resnet50-res512-all - Effusion](results_id/confusion matrix/resnet50-res512-all/cm_Effusion.png)
+
+#### RESULTS_ID - resnet50-res512-all - Emphysema
+
+![RESULTS_ID - resnet50-res512-all - Emphysema](results_id/confusion matrix/resnet50-res512-all/cm_Emphysema.png)
+
+#### RESULTS_ID - resnet50-res512-all - Fibrosis
+
+![RESULTS_ID - resnet50-res512-all - Fibrosis](results_id/confusion matrix/resnet50-res512-all/cm_Fibrosis.png)
+
+#### RESULTS_ID - resnet50-res512-all - Hernia
+
+![RESULTS_ID - resnet50-res512-all - Hernia](results_id/confusion matrix/resnet50-res512-all/cm_Hernia.png)
+
+#### RESULTS_ID - resnet50-res512-all - Infiltration
+
+![RESULTS_ID - resnet50-res512-all - Infiltration](results_id/confusion matrix/resnet50-res512-all/cm_Infiltration.png)
+
+#### RESULTS_ID - resnet50-res512-all - Mass
+
+![RESULTS_ID - resnet50-res512-all - Mass](results_id/confusion matrix/resnet50-res512-all/cm_Mass.png)
+
+#### RESULTS_ID - resnet50-res512-all - Nodule
+
+![RESULTS_ID - resnet50-res512-all - Nodule](results_id/confusion matrix/resnet50-res512-all/cm_Nodule.png)
+
+#### RESULTS_ID - resnet50-res512-all - Pleural Thickening
+
+![RESULTS_ID - resnet50-res512-all - Pleural Thickening](results_id/confusion matrix/resnet50-res512-all/cm_Pleural_Thickening.png)
+
+#### RESULTS_ID - resnet50-res512-all - Pneumonia
+
+![RESULTS_ID - resnet50-res512-all - Pneumonia](results_id/confusion matrix/resnet50-res512-all/cm_Pneumonia.png)
+
+#### RESULTS_ID - resnet50-res512-all - Pneumothorax
+
+![RESULTS_ID - resnet50-res512-all - Pneumothorax](results_id/confusion matrix/resnet50-res512-all/cm_Pneumothorax.png)
+
+#### RESULTS_ID - resnet50-res512-all - grid all pathologies
+
+![RESULTS_ID - resnet50-res512-all - grid all pathologies](results_id/confusion matrix/resnet50-res512-all/cm_grid_all_pathologies.png)
+
+#### RESULTS_ID - resnet50-res512-all - overall aggregated
+
+![RESULTS_ID - resnet50-res512-all - overall aggregated](results_id/confusion matrix/resnet50-res512-all/cm_overall_aggregated.png)
+
+#### RESULTS_OOD - densenet121-res224-all - Atelectasis
+
+![RESULTS_OOD - densenet121-res224-all - Atelectasis](results_ood/confusion-matrix/densenet121-res224-all/cm_Atelectasis.png)
+
+#### RESULTS_OOD - densenet121-res224-all - Cardiomegaly
+
+![RESULTS_OOD - densenet121-res224-all - Cardiomegaly](results_ood/confusion-matrix/densenet121-res224-all/cm_Cardiomegaly.png)
+
+#### RESULTS_OOD - densenet121-res224-all - Consolidation
+
+![RESULTS_OOD - densenet121-res224-all - Consolidation](results_ood/confusion-matrix/densenet121-res224-all/cm_Consolidation.png)
+
+#### RESULTS_OOD - densenet121-res224-all - Edema
+
+![RESULTS_OOD - densenet121-res224-all - Edema](results_ood/confusion-matrix/densenet121-res224-all/cm_Edema.png)
+
+#### RESULTS_OOD - densenet121-res224-all - Enlarged Cardiomediastinum
+
+![RESULTS_OOD - densenet121-res224-all - Enlarged Cardiomediastinum](results_ood/confusion-matrix/densenet121-res224-all/cm_Enlarged Cardiomediastinum.png)
+
+#### RESULTS_OOD - densenet121-res224-all - Fracture
+
+![RESULTS_OOD - densenet121-res224-all - Fracture](results_ood/confusion-matrix/densenet121-res224-all/cm_Fracture.png)
+
+#### RESULTS_OOD - densenet121-res224-all - Lung Lesion
+
+![RESULTS_OOD - densenet121-res224-all - Lung Lesion](results_ood/confusion-matrix/densenet121-res224-all/cm_Lung Lesion.png)
+
+#### RESULTS_OOD - densenet121-res224-all - Lung Opacity
+
+![RESULTS_OOD - densenet121-res224-all - Lung Opacity](results_ood/confusion-matrix/densenet121-res224-all/cm_Lung Opacity.png)
+
+#### RESULTS_OOD - densenet121-res224-all - Pneumonia
+
+![RESULTS_OOD - densenet121-res224-all - Pneumonia](results_ood/confusion-matrix/densenet121-res224-all/cm_Pneumonia.png)
+
+#### RESULTS_OOD - densenet121-res224-all - Pneumothorax
+
+![RESULTS_OOD - densenet121-res224-all - Pneumothorax](results_ood/confusion-matrix/densenet121-res224-all/cm_Pneumothorax.png)
+
+#### RESULTS_OOD - densenet121-res224-all - grid all pathologies
+
+![RESULTS_OOD - densenet121-res224-all - grid all pathologies](results_ood/confusion-matrix/densenet121-res224-all/cm_grid_all_pathologies.png)
+
+#### RESULTS_OOD - densenet121-res224-all - overall aggregated
+
+![RESULTS_OOD - densenet121-res224-all - overall aggregated](results_ood/confusion-matrix/densenet121-res224-all/cm_overall_aggregated.png)
+
+#### RESULTS_OOD - densenet121-res224-chex - Atelectasis
+
+![RESULTS_OOD - densenet121-res224-chex - Atelectasis](results_ood/confusion-matrix/densenet121-res224-chex/cm_Atelectasis.png)
+
+#### RESULTS_OOD - densenet121-res224-chex - Cardiomegaly
+
+![RESULTS_OOD - densenet121-res224-chex - Cardiomegaly](results_ood/confusion-matrix/densenet121-res224-chex/cm_Cardiomegaly.png)
+
+#### RESULTS_OOD - densenet121-res224-chex - Consolidation
+
+![RESULTS_OOD - densenet121-res224-chex - Consolidation](results_ood/confusion-matrix/densenet121-res224-chex/cm_Consolidation.png)
+
+#### RESULTS_OOD - densenet121-res224-chex - Edema
+
+![RESULTS_OOD - densenet121-res224-chex - Edema](results_ood/confusion-matrix/densenet121-res224-chex/cm_Edema.png)
+
+#### RESULTS_OOD - densenet121-res224-chex - Enlarged Cardiomediastinum
+
+![RESULTS_OOD - densenet121-res224-chex - Enlarged Cardiomediastinum](results_ood/confusion-matrix/densenet121-res224-chex/cm_Enlarged Cardiomediastinum.png)
+
+#### RESULTS_OOD - densenet121-res224-chex - Fracture
+
+![RESULTS_OOD - densenet121-res224-chex - Fracture](results_ood/confusion-matrix/densenet121-res224-chex/cm_Fracture.png)
+
+#### RESULTS_OOD - densenet121-res224-chex - Lung Lesion
+
+![RESULTS_OOD - densenet121-res224-chex - Lung Lesion](results_ood/confusion-matrix/densenet121-res224-chex/cm_Lung Lesion.png)
+
+#### RESULTS_OOD - densenet121-res224-chex - Lung Opacity
+
+![RESULTS_OOD - densenet121-res224-chex - Lung Opacity](results_ood/confusion-matrix/densenet121-res224-chex/cm_Lung Opacity.png)
+
+#### RESULTS_OOD - densenet121-res224-chex - Pneumonia
+
+![RESULTS_OOD - densenet121-res224-chex - Pneumonia](results_ood/confusion-matrix/densenet121-res224-chex/cm_Pneumonia.png)
+
+#### RESULTS_OOD - densenet121-res224-chex - Pneumothorax
+
+![RESULTS_OOD - densenet121-res224-chex - Pneumothorax](results_ood/confusion-matrix/densenet121-res224-chex/cm_Pneumothorax.png)
+
+#### RESULTS_OOD - densenet121-res224-chex - grid all pathologies
+
+![RESULTS_OOD - densenet121-res224-chex - grid all pathologies](results_ood/confusion-matrix/densenet121-res224-chex/cm_grid_all_pathologies.png)
+
+#### RESULTS_OOD - densenet121-res224-chex - overall aggregated
+
+![RESULTS_OOD - densenet121-res224-chex - overall aggregated](results_ood/confusion-matrix/densenet121-res224-chex/cm_overall_aggregated.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_ch - Atelectasis
+
+![RESULTS_OOD - densenet121-res224-mimic_ch - Atelectasis](results_ood/confusion-matrix/densenet121-res224-mimic_ch/cm_Atelectasis.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_ch - Cardiomegaly
+
+![RESULTS_OOD - densenet121-res224-mimic_ch - Cardiomegaly](results_ood/confusion-matrix/densenet121-res224-mimic_ch/cm_Cardiomegaly.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_ch - Consolidation
+
+![RESULTS_OOD - densenet121-res224-mimic_ch - Consolidation](results_ood/confusion-matrix/densenet121-res224-mimic_ch/cm_Consolidation.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_ch - Edema
+
+![RESULTS_OOD - densenet121-res224-mimic_ch - Edema](results_ood/confusion-matrix/densenet121-res224-mimic_ch/cm_Edema.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_ch - Enlarged Cardiomediastinum
+
+![RESULTS_OOD - densenet121-res224-mimic_ch - Enlarged Cardiomediastinum](results_ood/confusion-matrix/densenet121-res224-mimic_ch/cm_Enlarged Cardiomediastinum.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_ch - Fracture
+
+![RESULTS_OOD - densenet121-res224-mimic_ch - Fracture](results_ood/confusion-matrix/densenet121-res224-mimic_ch/cm_Fracture.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_ch - Lung Lesion
+
+![RESULTS_OOD - densenet121-res224-mimic_ch - Lung Lesion](results_ood/confusion-matrix/densenet121-res224-mimic_ch/cm_Lung Lesion.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_ch - Lung Opacity
+
+![RESULTS_OOD - densenet121-res224-mimic_ch - Lung Opacity](results_ood/confusion-matrix/densenet121-res224-mimic_ch/cm_Lung Opacity.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_ch - Pneumonia
+
+![RESULTS_OOD - densenet121-res224-mimic_ch - Pneumonia](results_ood/confusion-matrix/densenet121-res224-mimic_ch/cm_Pneumonia.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_ch - Pneumothorax
+
+![RESULTS_OOD - densenet121-res224-mimic_ch - Pneumothorax](results_ood/confusion-matrix/densenet121-res224-mimic_ch/cm_Pneumothorax.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_ch - grid all pathologies
+
+![RESULTS_OOD - densenet121-res224-mimic_ch - grid all pathologies](results_ood/confusion-matrix/densenet121-res224-mimic_ch/cm_grid_all_pathologies.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_ch - overall aggregated
+
+![RESULTS_OOD - densenet121-res224-mimic_ch - overall aggregated](results_ood/confusion-matrix/densenet121-res224-mimic_ch/cm_overall_aggregated.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_nb - Atelectasis
+
+![RESULTS_OOD - densenet121-res224-mimic_nb - Atelectasis](results_ood/confusion-matrix/densenet121-res224-mimic_nb/cm_Atelectasis.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_nb - Cardiomegaly
+
+![RESULTS_OOD - densenet121-res224-mimic_nb - Cardiomegaly](results_ood/confusion-matrix/densenet121-res224-mimic_nb/cm_Cardiomegaly.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_nb - Consolidation
+
+![RESULTS_OOD - densenet121-res224-mimic_nb - Consolidation](results_ood/confusion-matrix/densenet121-res224-mimic_nb/cm_Consolidation.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_nb - Edema
+
+![RESULTS_OOD - densenet121-res224-mimic_nb - Edema](results_ood/confusion-matrix/densenet121-res224-mimic_nb/cm_Edema.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_nb - Enlarged Cardiomediastinum
+
+![RESULTS_OOD - densenet121-res224-mimic_nb - Enlarged Cardiomediastinum](results_ood/confusion-matrix/densenet121-res224-mimic_nb/cm_Enlarged Cardiomediastinum.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_nb - Fracture
+
+![RESULTS_OOD - densenet121-res224-mimic_nb - Fracture](results_ood/confusion-matrix/densenet121-res224-mimic_nb/cm_Fracture.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_nb - Lung Lesion
+
+![RESULTS_OOD - densenet121-res224-mimic_nb - Lung Lesion](results_ood/confusion-matrix/densenet121-res224-mimic_nb/cm_Lung Lesion.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_nb - Lung Opacity
+
+![RESULTS_OOD - densenet121-res224-mimic_nb - Lung Opacity](results_ood/confusion-matrix/densenet121-res224-mimic_nb/cm_Lung Opacity.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_nb - Pneumonia
+
+![RESULTS_OOD - densenet121-res224-mimic_nb - Pneumonia](results_ood/confusion-matrix/densenet121-res224-mimic_nb/cm_Pneumonia.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_nb - Pneumothorax
+
+![RESULTS_OOD - densenet121-res224-mimic_nb - Pneumothorax](results_ood/confusion-matrix/densenet121-res224-mimic_nb/cm_Pneumothorax.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_nb - grid all pathologies
+
+![RESULTS_OOD - densenet121-res224-mimic_nb - grid all pathologies](results_ood/confusion-matrix/densenet121-res224-mimic_nb/cm_grid_all_pathologies.png)
+
+#### RESULTS_OOD - densenet121-res224-mimic_nb - overall aggregated
+
+![RESULTS_OOD - densenet121-res224-mimic_nb - overall aggregated](results_ood/confusion-matrix/densenet121-res224-mimic_nb/cm_overall_aggregated.png)
+
+#### RESULTS_OOD - densenet121-res224-nih - Atelectasis
+
+![RESULTS_OOD - densenet121-res224-nih - Atelectasis](results_ood/confusion-matrix/densenet121-res224-nih/cm_Atelectasis.png)
+
+#### RESULTS_OOD - densenet121-res224-nih - Cardiomegaly
+
+![RESULTS_OOD - densenet121-res224-nih - Cardiomegaly](results_ood/confusion-matrix/densenet121-res224-nih/cm_Cardiomegaly.png)
+
+#### RESULTS_OOD - densenet121-res224-nih - Consolidation
+
+![RESULTS_OOD - densenet121-res224-nih - Consolidation](results_ood/confusion-matrix/densenet121-res224-nih/cm_Consolidation.png)
+
+#### RESULTS_OOD - densenet121-res224-nih - Edema
+
+![RESULTS_OOD - densenet121-res224-nih - Edema](results_ood/confusion-matrix/densenet121-res224-nih/cm_Edema.png)
+
+#### RESULTS_OOD - densenet121-res224-nih - Pneumonia
+
+![RESULTS_OOD - densenet121-res224-nih - Pneumonia](results_ood/confusion-matrix/densenet121-res224-nih/cm_Pneumonia.png)
+
+#### RESULTS_OOD - densenet121-res224-nih - Pneumothorax
+
+![RESULTS_OOD - densenet121-res224-nih - Pneumothorax](results_ood/confusion-matrix/densenet121-res224-nih/cm_Pneumothorax.png)
+
+#### RESULTS_OOD - densenet121-res224-nih - grid all pathologies
+
+![RESULTS_OOD - densenet121-res224-nih - grid all pathologies](results_ood/confusion-matrix/densenet121-res224-nih/cm_grid_all_pathologies.png)
+
+#### RESULTS_OOD - densenet121-res224-nih - overall aggregated
+
+![RESULTS_OOD - densenet121-res224-nih - overall aggregated](results_ood/confusion-matrix/densenet121-res224-nih/cm_overall_aggregated.png)
+
+#### RESULTS_OOD - densenet121-res224-pc - Atelectasis
+
+![RESULTS_OOD - densenet121-res224-pc - Atelectasis](results_ood/confusion-matrix/densenet121-res224-pc/cm_Atelectasis.png)
+
+#### RESULTS_OOD - densenet121-res224-pc - Cardiomegaly
+
+![RESULTS_OOD - densenet121-res224-pc - Cardiomegaly](results_ood/confusion-matrix/densenet121-res224-pc/cm_Cardiomegaly.png)
+
+#### RESULTS_OOD - densenet121-res224-pc - Consolidation
+
+![RESULTS_OOD - densenet121-res224-pc - Consolidation](results_ood/confusion-matrix/densenet121-res224-pc/cm_Consolidation.png)
+
+#### RESULTS_OOD - densenet121-res224-pc - Edema
+
+![RESULTS_OOD - densenet121-res224-pc - Edema](results_ood/confusion-matrix/densenet121-res224-pc/cm_Edema.png)
+
+#### RESULTS_OOD - densenet121-res224-pc - Fracture
+
+![RESULTS_OOD - densenet121-res224-pc - Fracture](results_ood/confusion-matrix/densenet121-res224-pc/cm_Fracture.png)
+
+#### RESULTS_OOD - densenet121-res224-pc - Pneumonia
+
+![RESULTS_OOD - densenet121-res224-pc - Pneumonia](results_ood/confusion-matrix/densenet121-res224-pc/cm_Pneumonia.png)
+
+#### RESULTS_OOD - densenet121-res224-pc - Pneumothorax
+
+![RESULTS_OOD - densenet121-res224-pc - Pneumothorax](results_ood/confusion-matrix/densenet121-res224-pc/cm_Pneumothorax.png)
+
+#### RESULTS_OOD - densenet121-res224-pc - grid all pathologies
+
+![RESULTS_OOD - densenet121-res224-pc - grid all pathologies](results_ood/confusion-matrix/densenet121-res224-pc/cm_grid_all_pathologies.png)
+
+#### RESULTS_OOD - densenet121-res224-pc - overall aggregated
+
+![RESULTS_OOD - densenet121-res224-pc - overall aggregated](results_ood/confusion-matrix/densenet121-res224-pc/cm_overall_aggregated.png)
+
+#### RESULTS_OOD - resnet50-res512-all - Atelectasis
+
+![RESULTS_OOD - resnet50-res512-all - Atelectasis](results_ood/confusion-matrix/resnet50-res512-all/cm_Atelectasis.png)
+
+#### RESULTS_OOD - resnet50-res512-all - Cardiomegaly
+
+![RESULTS_OOD - resnet50-res512-all - Cardiomegaly](results_ood/confusion-matrix/resnet50-res512-all/cm_Cardiomegaly.png)
+
+#### RESULTS_OOD - resnet50-res512-all - Consolidation
+
+![RESULTS_OOD - resnet50-res512-all - Consolidation](results_ood/confusion-matrix/resnet50-res512-all/cm_Consolidation.png)
+
+#### RESULTS_OOD - resnet50-res512-all - Edema
+
+![RESULTS_OOD - resnet50-res512-all - Edema](results_ood/confusion-matrix/resnet50-res512-all/cm_Edema.png)
+
+#### RESULTS_OOD - resnet50-res512-all - Enlarged Cardiomediastinum
+
+![RESULTS_OOD - resnet50-res512-all - Enlarged Cardiomediastinum](results_ood/confusion-matrix/resnet50-res512-all/cm_Enlarged Cardiomediastinum.png)
+
+#### RESULTS_OOD - resnet50-res512-all - Fracture
+
+![RESULTS_OOD - resnet50-res512-all - Fracture](results_ood/confusion-matrix/resnet50-res512-all/cm_Fracture.png)
+
+#### RESULTS_OOD - resnet50-res512-all - Lung Lesion
+
+![RESULTS_OOD - resnet50-res512-all - Lung Lesion](results_ood/confusion-matrix/resnet50-res512-all/cm_Lung Lesion.png)
+
+#### RESULTS_OOD - resnet50-res512-all - Lung Opacity
+
+![RESULTS_OOD - resnet50-res512-all - Lung Opacity](results_ood/confusion-matrix/resnet50-res512-all/cm_Lung Opacity.png)
+
+#### RESULTS_OOD - resnet50-res512-all - Pneumonia
+
+![RESULTS_OOD - resnet50-res512-all - Pneumonia](results_ood/confusion-matrix/resnet50-res512-all/cm_Pneumonia.png)
+
+#### RESULTS_OOD - resnet50-res512-all - Pneumothorax
+
+![RESULTS_OOD - resnet50-res512-all - Pneumothorax](results_ood/confusion-matrix/resnet50-res512-all/cm_Pneumothorax.png)
+
+#### RESULTS_OOD - resnet50-res512-all - grid all pathologies
+
+![RESULTS_OOD - resnet50-res512-all - grid all pathologies](results_ood/confusion-matrix/resnet50-res512-all/cm_grid_all_pathologies.png)
+
+#### RESULTS_OOD - resnet50-res512-all - overall aggregated
+
+![RESULTS_OOD - resnet50-res512-all - overall aggregated](results_ood/confusion-matrix/resnet50-res512-all/cm_overall_aggregated.png)
 
 ## 3. Conclusions
 
