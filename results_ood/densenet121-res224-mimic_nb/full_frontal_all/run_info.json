@@ -1,0 +1,13 @@
+{
+  "batch_size": 8,
+  "device": "cpu",
+  "img_size": 224,
+  "model": "densenet121-res224-mimic_nb",
+  "n_brax_labels_evaluated": 11,
+  "n_images": 18424,
+  "n_model_pathologies": 18,
+  "timing_seconds": {
+    "inference": 1290.6767282518558,
+    "total": 1302.4267256059684
+  }
+}

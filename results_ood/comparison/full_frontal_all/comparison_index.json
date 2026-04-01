@@ -1,0 +1,271 @@
+{
+  "models": [
+    {
+      "labels_evaluated": [
+        "Enlarged Cardiomediastinum",
+        "Cardiomegaly",
+        "Lung Lesion",
+        "Lung Opacity",
+        "Edema",
+        "Consolidation",
+        "Pneumonia",
+        "Atelectasis",
+        "Pneumothorax",
+        "Pleural Effusion",
+        "Fracture"
+      ],
+      "model": "densenet121-res224-all",
+      "n_images": 18424,
+      "policy_summaries": {
+        "ignore_uncertain": {
+          "label_policy": "ignore_uncertain",
+          "macro_auprc_ap": 0.07665272391923307,
+          "macro_auroc": 0.6785685504044081,
+          "macro_brier": 0.08025807643457535,
+          "macro_ece_10bin": 0.13640251508914777,
+          "model": "densenet121-res224-all",
+          "n_images": 18424,
+          "n_labels_evaluated": 11
+        },
+        "u0": {
+          "label_policy": "u0",
+          "macro_auprc_ap": 0.07665119499736915,
+          "macro_auroc": 0.6785808274876314,
+          "macro_brier": 0.08025138180023698,
+          "macro_ece_10bin": 0.13639675563669915,
+          "model": "densenet121-res224-all",
+          "n_images": 18424,
+          "n_labels_evaluated": 11
+        }
+      }
+    },
+    {
+      "labels_evaluated": [
+        "Enlarged Cardiomediastinum",
+        "Cardiomegaly",
+        "Lung Lesion",
+        "Lung Opacity",
+        "Edema",
+        "Consolidation",
+        "Pneumonia",
+        "Atelectasis",
+        "Pneumothorax",
+        "Pleural Effusion",
+        "Fracture"
+      ],
+      "model": "densenet121-res224-chex",
+      "n_images": 18424,
+      "policy_summaries": {
+        "ignore_uncertain": {
+          "label_policy": "ignore_uncertain",
+          "macro_auprc_ap": 0.04941121300404117,
+          "macro_auroc": 0.6487315774203779,
+          "macro_brier": 0.18484137087675973,
+          "macro_ece_10bin": 0.2964226739035072,
+          "model": "densenet121-res224-chex",
+          "n_images": 18424,
+          "n_labels_evaluated": 11
+        },
+        "u0": {
+          "label_policy": "u0",
+          "macro_auprc_ap": 0.049409829024684826,
+          "macro_auroc": 0.6487438035359372,
+          "macro_brier": 0.18483165946943353,
+          "macro_ece_10bin": 0.29641574631420436,
+          "model": "densenet121-res224-chex",
+          "n_images": 18424,
+          "n_labels_evaluated": 11
+        }
+      }
+    },
+    {
+      "labels_evaluated": [
+        "Enlarged Cardiomediastinum",
+        "Cardiomegaly",
+        "Lung Lesion",
+        "Lung Opacity",
+        "Edema",
+        "Consolidation",
+        "Pneumonia",
+        "Atelectasis",
+        "Pneumothorax",
+        "Pleural Effusion",
+        "Fracture"
+      ],
+      "model": "densenet121-res224-mimic_nb",
+      "n_images": 18424,
+      "policy_summaries": {
+        "ignore_uncertain": {
+          "label_policy": "ignore_uncertain",
+          "macro_auprc_ap": 0.051305534431272656,
+          "macro_auroc": 0.6348723774981099,
+          "macro_brier": 0.21843993302906964,
+          "macro_ece_10bin": 0.3630192637559978,
+          "model": "densenet121-res224-mimic_nb",
+          "n_images": 18424,
+          "n_labels_evaluated": 11
+        },
+        "u0": {
+          "label_policy": "u0",
+          "macro_auprc_ap": 0.05130377506750235,
+          "macro_auroc": 0.6348802065556621,
+          "macro_brier": 0.21843565148667643,
+          "macro_ece_10bin": 0.3630198043637867,
+          "model": "densenet121-res224-mimic_nb",
+          "n_images": 18424,
+          "n_labels_evaluated": 11
+        }
+      }
+    },
+    {
+      "labels_evaluated": [
+        "Enlarged Cardiomediastinum",
+        "Cardiomegaly",
+        "Lung Lesion",
+        "Lung Opacity",
+        "Edema",
+        "Consolidation",
+        "Pneumonia",
+        "Atelectasis",
+        "Pneumothorax",
+        "Pleural Effusion",
+        "Fracture"
+      ],
+      "model": "densenet121-res224-mimic_ch",
+      "n_images": 18424,
+      "policy_summaries": {
+        "ignore_uncertain": {
+          "label_policy": "ignore_uncertain",
+          "macro_auprc_ap": 0.05495459446445843,
+          "macro_auroc": 0.6369660948698217,
+          "macro_brier": 0.21405121934353188,
+          "macro_ece_10bin": 0.3714301875594289,
+          "model": "densenet121-res224-mimic_ch",
+          "n_images": 18424,
+          "n_labels_evaluated": 11
+        },
+        "u0": {
+          "label_policy": "u0",
+          "macro_auprc_ap": 0.054953418269527,
+          "macro_auroc": 0.6369781160684654,
+          "macro_brier": 0.21404228481050663,
+          "macro_ece_10bin": 0.3714235667342225,
+          "model": "densenet121-res224-mimic_ch",
+          "n_images": 18424,
+          "n_labels_evaluated": 11
+        }
+      }
+    },
+    {
+      "labels_evaluated": [
+        "Cardiomegaly",
+        "Edema",
+        "Consolidation",
+        "Pneumonia",
+        "Atelectasis",
+        "Pneumothorax",
+        "Pleural Effusion"
+      ],
+      "model": "densenet121-res224-nih",
+      "n_images": 18424,
+      "policy_summaries": {
+        "ignore_uncertain": {
+          "label_policy": "ignore_uncertain",
+          "macro_auprc_ap": 0.06466369214328174,
+          "macro_auroc": 0.6524148900694248,
+          "macro_brier": 0.11141236019957763,
+          "macro_ece_10bin": 0.1956333322732288,
+          "model": "densenet121-res224-nih",
+          "n_images": 18424,
+          "n_labels_evaluated": 7
+        },
+        "u0": {
+          "label_policy": "u0",
+          "macro_auprc_ap": 0.06466369214328174,
+          "macro_auroc": 0.6524148900694248,
+          "macro_brier": 0.11141236019957763,
+          "macro_ece_10bin": 0.1956333322732288,
+          "model": "densenet121-res224-nih",
+          "n_images": 18424,
+          "n_labels_evaluated": 7
+        }
+      }
+    },
+    {
+      "labels_evaluated": [
+        "Cardiomegaly",
+        "Edema",
+        "Consolidation",
+        "Pneumonia",
+        "Atelectasis",
+        "Pneumothorax",
+        "Pleural Effusion",
+        "Fracture"
+      ],
+      "model": "densenet121-res224-pc",
+      "n_images": 18424,
+      "policy_summaries": {
+        "ignore_uncertain": {
+          "label_policy": "ignore_uncertain",
+          "macro_auprc_ap": 0.08967291353598777,
+          "macro_auroc": 0.7183926644323156,
+          "macro_brier": 0.13208910071396338,
+          "macro_ece_10bin": 0.24729596626681155,
+          "model": "densenet121-res224-pc",
+          "n_images": 18424,
+          "n_labels_evaluated": 8
+        },
+        "u0": {
+          "label_policy": "u0",
+          "macro_auprc_ap": 0.08967291353598777,
+          "macro_auroc": 0.7183926644323156,
+          "macro_brier": 0.13208910071396338,
+          "macro_ece_10bin": 0.24729596626681155,
+          "model": "densenet121-res224-pc",
+          "n_images": 18424,
+          "n_labels_evaluated": 8
+        }
+      }
+    },
+    {
+      "labels_evaluated": [
+        "Enlarged Cardiomediastinum",
+        "Cardiomegaly",
+        "Lung Lesion",
+        "Lung Opacity",
+        "Edema",
+        "Consolidation",
+        "Pneumonia",
+        "Atelectasis",
+        "Pneumothorax",
+        "Pleural Effusion",
+        "Fracture"
+      ],
+      "model": "resnet50-res512-all",
+      "n_images": 18424,
+      "policy_summaries": {
+        "ignore_uncertain": {
+          "label_policy": "ignore_uncertain",
+          "macro_auprc_ap": 0.08941375326471553,
+          "macro_auroc": 0.6765745346274675,
+          "macro_brier": 0.07706391363544848,
+          "macro_ece_10bin": 0.11578042459853627,
+          "model": "resnet50-res512-all",
+          "n_images": 18424,
+          "n_labels_evaluated": 11
+        },
+        "u0": {
+          "label_policy": "u0",
+          "macro_auprc_ap": 0.08941132602374374,
+          "macro_auroc": 0.6765808066879706,
+          "macro_brier": 0.0770606868926703,
+          "macro_ece_10bin": 0.11577824489631823,
+          "model": "resnet50-res512-all",
+          "n_images": 18424,
+          "n_labels_evaluated": 11
+        }
+      }
+    }
+  ],
+  "tag": "full_frontal_all"
+}

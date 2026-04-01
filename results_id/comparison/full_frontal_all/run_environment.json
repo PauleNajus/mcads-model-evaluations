@@ -1,0 +1,9 @@
+{
+  "models": [
+    "densenet121-res224-all",
+    "densenet121-res224-nih",
+    "resnet50-res512-all"
+  ],
+  "n_images": 112120,
+  "note": "Cohort stats from full 112120-image dataset; resnet50 evaluated on 1000-image stratified subset"
+}

@@ -1,0 +1,49 @@
+{
+  "brax_labels_evaluated": [
+    "Enlarged Cardiomediastinum",
+    "Cardiomegaly",
+    "Lung Lesion",
+    "Lung Opacity",
+    "Edema",
+    "Consolidation",
+    "Pneumonia",
+    "Atelectasis",
+    "Pneumothorax",
+    "Pleural Effusion",
+    "Fracture"
+  ],
+  "brax_to_model_index": {
+    "Atelectasis": 0,
+    "Cardiomegaly": 10,
+    "Consolidation": 1,
+    "Edema": 4,
+    "Enlarged Cardiomediastinum": 17,
+    "Fracture": 15,
+    "Lung Lesion": 14,
+    "Lung Opacity": 16,
+    "Pleural Effusion": 7,
+    "Pneumonia": 8,
+    "Pneumothorax": 3
+  },
+  "model": "densenet121-res224-mimic_ch",
+  "model_pathologies": [
+    "Atelectasis",
+    "Consolidation",
+    "",
+    "Pneumothorax",
+    "Edema",
+    "",
+    "",
+    "Effusion",
+    "Pneumonia",
+    "",
+    "Cardiomegaly",
+    "",
+    "",
+    "",
+    "Lung Lesion",
+    "Fracture",
+    "Lung Opacity",
+    "Enlarged Cardiomediastinum"
+  ]
+}

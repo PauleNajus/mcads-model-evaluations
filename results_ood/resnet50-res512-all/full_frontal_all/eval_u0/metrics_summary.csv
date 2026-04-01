@@ -1,0 +1,2 @@
+model,label_policy,n_images,n_labels_evaluated,macro_auroc,macro_auprc_ap,macro_brier,macro_ece_10bin
+resnet50-res512-all,u0,18424,11,0.6765808066879706,0.08941132602374374,0.0770606868926703,0.11577824489631823

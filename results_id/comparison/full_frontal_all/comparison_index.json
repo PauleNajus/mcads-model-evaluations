@@ -1,0 +1,139 @@
+{
+  "models": [
+    {
+      "labels_evaluated": [
+        "Atelectasis",
+        "Consolidation",
+        "Infiltration",
+        "Pneumothorax",
+        "Edema",
+        "Emphysema",
+        "Fibrosis",
+        "Effusion",
+        "Pneumonia",
+        "Pleural_Thickening",
+        "Cardiomegaly",
+        "Nodule",
+        "Mass",
+        "Hernia",
+        "Lung Lesion",
+        "Fracture",
+        "Lung Opacity",
+        "Enlarged Cardiomediastinum"
+      ],
+      "model": "densenet121-res224-all",
+      "n_images": 112120,
+      "policy_summaries": {
+        "ignore_uncertain": {
+          "label_policy": "ignore_uncertain",
+          "macro_auprc_ap": 0.18021348466531292,
+          "macro_auroc": 0.7718355752611498,
+          "macro_brier": 0.13492601813828842,
+          "macro_ece_10bin": 0.23759583731780637,
+          "model": "densenet121-res224-all",
+          "n_images": 112120,
+          "n_labels_evaluated": 18
+        },
+        "u0": {
+          "label_policy": "u0",
+          "macro_auprc_ap": 0.18021348466531292,
+          "macro_auroc": 0.7718355752611498,
+          "macro_brier": 0.13492601813828842,
+          "macro_ece_10bin": 0.23759583731780637,
+          "model": "densenet121-res224-all",
+          "n_images": 112120,
+          "n_labels_evaluated": 18
+        }
+      }
+    },
+    {
+      "labels_evaluated": [
+        "Atelectasis",
+        "Consolidation",
+        "Infiltration",
+        "Pneumothorax",
+        "Edema",
+        "Emphysema",
+        "Fibrosis",
+        "Effusion",
+        "Pneumonia",
+        "Pleural_Thickening",
+        "Cardiomegaly",
+        "Nodule",
+        "Mass",
+        "Hernia"
+      ],
+      "model": "densenet121-res224-nih",
+      "n_images": 112120,
+      "policy_summaries": {
+        "ignore_uncertain": {
+          "label_policy": "ignore_uncertain",
+          "macro_auprc_ap": 0.13583077611424538,
+          "macro_auroc": 0.7385384593968031,
+          "macro_brier": 0.15775260530030158,
+          "macro_ece_10bin": 0.2789467758760228,
+          "model": "densenet121-res224-nih",
+          "n_images": 112120,
+          "n_labels_evaluated": 14
+        },
+        "u0": {
+          "label_policy": "u0",
+          "macro_auprc_ap": 0.13583077611424538,
+          "macro_auroc": 0.7385384593968031,
+          "macro_brier": 0.15775260530030158,
+          "macro_ece_10bin": 0.2789467758760228,
+          "model": "densenet121-res224-nih",
+          "n_images": 112120,
+          "n_labels_evaluated": 14
+        }
+      }
+    },
+    {
+      "labels_evaluated": [
+        "Atelectasis",
+        "Consolidation",
+        "Infiltration",
+        "Pneumothorax",
+        "Edema",
+        "Emphysema",
+        "Fibrosis",
+        "Effusion",
+        "Pneumonia",
+        "Pleural_Thickening",
+        "Cardiomegaly",
+        "Nodule",
+        "Mass",
+        "Hernia",
+        "Lung Lesion",
+        "Fracture",
+        "Lung Opacity",
+        "Enlarged Cardiomediastinum"
+      ],
+      "model": "resnet50-res512-all",
+      "n_images": 1000,
+      "policy_summaries": {
+        "ignore_uncertain": {
+          "label_policy": "ignore_uncertain",
+          "macro_auprc_ap": 0.43962519232998426,
+          "macro_auroc": 0.7974996525546691,
+          "macro_brier": 0.0906391092026371,
+          "macro_ece_10bin": 0.05737851706278808,
+          "model": "resnet50-res512-all",
+          "n_images": 1000,
+          "n_labels_evaluated": 18
+        },
+        "u0": {
+          "label_policy": "u0",
+          "macro_auprc_ap": 0.43962519232998426,
+          "macro_auroc": 0.7974996525546691,
+          "macro_brier": 0.0906391092026371,
+          "macro_ece_10bin": 0.05737851706278808,
+          "model": "resnet50-res512-all",
+          "n_images": 1000,
+          "n_labels_evaluated": 18
+        }
+      }
+    }
+  ],
+  "tag": "full_frontal_all"
+}

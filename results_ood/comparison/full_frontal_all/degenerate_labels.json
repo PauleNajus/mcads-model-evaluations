@@ -1,0 +1,30 @@
+{
+  "ignore_uncertain": {
+    "densenet121-res224-all": [],
+    "densenet121-res224-chex": [
+      "Lung Lesion"
+    ],
+    "densenet121-res224-mimic_ch": [],
+    "densenet121-res224-mimic_nb": [],
+    "densenet121-res224-nih": [],
+    "densenet121-res224-pc": [],
+    "resnet50-res512-all": [
+      "Enlarged Cardiomediastinum",
+      "Lung Lesion"
+    ]
+  },
+  "u0": {
+    "densenet121-res224-all": [],
+    "densenet121-res224-chex": [
+      "Lung Lesion"
+    ],
+    "densenet121-res224-mimic_ch": [],
+    "densenet121-res224-mimic_nb": [],
+    "densenet121-res224-nih": [],
+    "densenet121-res224-pc": [],
+    "resnet50-res512-all": [
+      "Enlarged Cardiomediastinum",
+      "Lung Lesion"
+    ]
+  }
+}

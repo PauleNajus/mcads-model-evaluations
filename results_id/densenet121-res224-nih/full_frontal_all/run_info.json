@@ -1,0 +1,13 @@
+{
+  "batch_size": 32,
+  "device": "cpu",
+  "img_size": 224,
+  "model": "densenet121-res224-nih",
+  "n_id_labels_evaluated": 14,
+  "n_images": 112120,
+  "n_model_pathologies": 18,
+  "timing_seconds": {
+    "inference": 4389.619819997999,
+    "total": 4412.995024013999
+  }
+}

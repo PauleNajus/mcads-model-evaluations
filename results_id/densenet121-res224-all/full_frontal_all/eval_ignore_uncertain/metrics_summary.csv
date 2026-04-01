@@ -1,0 +1,2 @@
+model,label_policy,n_images,n_labels_evaluated,macro_auroc,macro_auprc_ap,macro_brier,macro_ece_10bin
+densenet121-res224-all,ignore_uncertain,112120,18,0.7718355752611498,0.18021348466531292,0.13492601813828842,0.23759583731780637

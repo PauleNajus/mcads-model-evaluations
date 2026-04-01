@@ -1,0 +1,13 @@
+{
+  "batch_size": 8,
+  "device": "cpu",
+  "img_size": 224,
+  "model": "densenet121-res224-chex",
+  "n_brax_labels_evaluated": 11,
+  "n_images": 18424,
+  "n_model_pathologies": 18,
+  "timing_seconds": {
+    "inference": 1472.6580781070516,
+    "total": 1484.886001593899
+  }
+}

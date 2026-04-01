@@ -1,0 +1,2 @@
+model,label_policy,n_images,n_labels_evaluated,macro_auroc,macro_auprc_ap,macro_brier,macro_ece_10bin
+densenet121-res224-chex,ignore_uncertain,18424,11,0.6487315774203779,0.04941121300404117,0.18484137087675973,0.2964226739035072

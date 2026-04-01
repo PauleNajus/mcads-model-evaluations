@@ -1,0 +1,4 @@
+model,Atelectasis,Consolidation,Infiltration,Pneumothorax,Edema,Emphysema,Fibrosis,Effusion,Pneumonia,Pleural_Thickening,Cardiomegaly,Nodule,Mass,Hernia,Lung Lesion,Fracture,Lung Opacity,Enlarged Cardiomediastinum
+densenet121-res224-all,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+densenet121-res224-nih,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0
+resnet50-res512-all,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1

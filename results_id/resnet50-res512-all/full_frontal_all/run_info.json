@@ -1,0 +1,13 @@
+{
+  "batch_size": 8,
+  "device": "cpu",
+  "img_size": 512,
+  "model": "resnet50-res512-all",
+  "n_id_labels_evaluated": 18,
+  "n_images": 1000,
+  "n_model_pathologies": 18,
+  "timing_seconds": {
+    "inference": 238.02659422298893,
+    "total": 254.99507383501623
+  }
+}

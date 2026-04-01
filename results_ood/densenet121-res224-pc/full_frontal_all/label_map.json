@@ -1,0 +1,43 @@
+{
+  "brax_labels_evaluated": [
+    "Cardiomegaly",
+    "Edema",
+    "Consolidation",
+    "Pneumonia",
+    "Atelectasis",
+    "Pneumothorax",
+    "Pleural Effusion",
+    "Fracture"
+  ],
+  "brax_to_model_index": {
+    "Atelectasis": 0,
+    "Cardiomegaly": 10,
+    "Consolidation": 1,
+    "Edema": 4,
+    "Fracture": 15,
+    "Pleural Effusion": 7,
+    "Pneumonia": 8,
+    "Pneumothorax": 3
+  },
+  "model": "densenet121-res224-pc",
+  "model_pathologies": [
+    "Atelectasis",
+    "Consolidation",
+    "Infiltration",
+    "Pneumothorax",
+    "Edema",
+    "Emphysema",
+    "Fibrosis",
+    "Effusion",
+    "Pneumonia",
+    "Pleural_Thickening",
+    "Cardiomegaly",
+    "Nodule",
+    "Mass",
+    "Hernia",
+    "",
+    "Fracture",
+    "",
+    ""
+  ]
+}

@@ -1,0 +1,8 @@
+model,No Finding,Enlarged Cardiomediastinum,Cardiomegaly,Lung Lesion,Lung Opacity,Edema,Consolidation,Pneumonia,Atelectasis,Pneumothorax,Pleural Effusion,Pleural Other,Fracture,Support Devices
+densenet121-res224-all,0,1,1,1,1,1,1,1,1,1,1,0,1,0
+densenet121-res224-chex,0,1,1,1,1,1,1,1,1,1,1,0,1,0
+densenet121-res224-mimic_nb,0,1,1,1,1,1,1,1,1,1,1,0,1,0
+densenet121-res224-mimic_ch,0,1,1,1,1,1,1,1,1,1,1,0,1,0
+densenet121-res224-nih,0,0,1,0,0,1,1,1,1,1,1,0,0,0
+densenet121-res224-pc,0,0,1,0,0,1,1,1,1,1,1,0,1,0
+resnet50-res512-all,0,1,1,1,1,1,1,1,1,1,1,0,1,0
