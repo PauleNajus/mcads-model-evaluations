@@ -1174,6 +1174,8 @@ Below is a detailed breakdown and analysis of every graph generated during the m
 
 ### 2.3 Confusion Matrices
 
+#### Individual Model Confusion Matrices
+
 ##### Figure 141: RESULTS_ID - densenet121-res224-all - Atelectasis
 
 ![RESULTS_ID - densenet121-res224-all - Atelectasis](results_id/confusion%20matrix/densenet121-res224-all/cm_Atelectasis.png)
