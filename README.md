@@ -290,6 +290,10 @@ Repository containing the raw testing logs, evaluation metrics, and comparative 
 
 This document presents a comprehensive evaluation of seven deep learning models (including DenseNet121 and ResNet50 variants) developed for the Multi-Label Chest Abnormality Detection System (MCADS). The evaluation assesses model performance on both In-Distribution (ID) and Out-Of-Distribution (OOD) datasets to determine clinical readiness, generalization capabilities, and algorithmic fairness across different demographic subgroups. By analyzing key metrics such as AUROC, AUPRC, Brier Score, and Expected Calibration Error (ECE), this report provides a detailed understanding of each model's strengths and vulnerabilities under domain shift.
 
+MCADS prototype can be reached via this URL: <https://mcads.cloud/accounts/login/?next=/>; username: “guest”; password: “GuEst2025!”.
+MCADS source code can be reached via this URL: <https://github.com/PauleNajus/mcads/tree/prod>.
+MCADS architecture and processes can be reached via this URL: <https://github.com/PauleNajus/mcads-architecture-and-processes>.
+
 ## 2. Results
 
 ### 2.1 Summary Metrics Tables
