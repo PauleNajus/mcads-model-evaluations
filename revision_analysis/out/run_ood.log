@@ -1,0 +1,31 @@
+[    0.9s] bootstrap weights
+[    1.1s] per-label bootstrap
+[   25.5s]    DN121-PadChest
+[   50.3s]    DN121-All
+[   74.7s]    RN50-All
+[   99.5s]    DN121-CheXpert
+[  123.9s]    DN121-MIMIC-CH
+[  147.9s]    DN121-NIH
+[  171.8s]    DN121-MIMIC-NB
+[  171.8s] pairwise done
+[  172.1s] calibration
+[  176.9s]    DN121-PadChest
+[  178.2s]    DN121-All
+[  179.4s]    RN50-All
+[  180.7s]    DN121-CheXpert
+[  181.8s]    DN121-MIMIC-CH
+[  183.2s]    DN121-NIH
+[  184.5s]    DN121-MIMIC-NB
+[  184.5s] threshold metrics
+[  193.4s] subgroups
+[  241.9s]    sex ['Atelectasis', 'Cardiomegaly', 'Consolidation', 'Pleural Effusion', 'Pneumonia', 'Pneumothorax']
+[  292.3s]    view ['Atelectasis', 'Cardiomegaly', 'Consolidation', 'Pleural Effusion', 'Pneumonia', 'Pneumothorax']
+[  321.2s]    age ['Atelectasis', 'Cardiomegaly', 'Consolidation', 'Pleural Effusion']
+[  353.8s]    manufacturer ['Atelectasis', 'Cardiomegaly', 'Consolidation', 'Pleural Effusion', 'Pneumonia']
+[  353.9s] stratified
+[  369.9s]   age within PA ['Atelectasis', 'Cardiomegaly', 'Consolidation']
+[  393.9s]   view within age ['Atelectasis', 'Consolidation', 'Pleural Effusion']
+[  399.4s]   manufacturer within AP ['Atelectasis', 'Cardiomegaly', 'Consolidation', 'Pneumonia'] ['1', '2', '3', '5', '6']
+[  414.5s]   manufacturer within PA ['Atelectasis', 'Cardiomegaly', 'Consolidation'] ['1', '2', '3', '5', '6']
+[  422.1s]   code 2 ['Atelectasis', 'Cardiomegaly', 'Consolidation', 'Pleural Effusion']
+[  422.4s] done

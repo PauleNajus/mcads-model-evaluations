@@ -296,6 +296,8 @@ MCADS source code can be reached via this URL: <https://github.com/PauleNajus/mc
 
 MCADS architecture and processes can be reached via this URL: <https://github.com/PauleNajus/mcads-architecture-and-processes>.
 
+Additional analyses performed for the revision of the manuscript "Out-of-Distribution Generalization of Pre-Trained Multi-Label Chest X-Ray Classifiers: A Retrospective External Validation of Seven Models" (held-out in-distribution partitions, paired model comparisons, calibration of raw and recalibrated outputs, operating points, and stratified subgroup analyses) are documented in [`revision_analysis/`](revision_analysis/README.md). The predictions of `resnet50-res512-all` on its held-out NIH ChestX-ray14 partition are in `results_id/resnet50-res512-all/heldout_partition/`.
+
 ## 2. Results
 
 ### 2.1 Summary Metrics Tables

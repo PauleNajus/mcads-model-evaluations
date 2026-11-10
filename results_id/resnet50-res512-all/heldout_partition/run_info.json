@@ -1,0 +1,202 @@
+{
+  "model": "resnet50-res512-all",
+  "img_size": 512,
+  "batch_size": 8,
+  "device": "cpu",
+  "n_images": 22256,
+  "n_patients": 6161,
+  "partition": "held-out partition of the weights: GroupShuffleSplit(train_size=0.8, test_size=0.2, random_state=0) on the patient ID, all frontal (PA/AP) images of the test patients",
+  "image_source": "official NIH Clinical Center archives images_001-012.tar.gz (MD5 verified)",
+  "archives": [
+    {
+      "archive": "images_001.tar.gz",
+      "md5": "fe8ed0a6961412fddcbb3603c11b3698",
+      "files_in_archive": 4999,
+      "kept": 932,
+      "modes": {
+        "L": 911,
+        "RGBA": 21
+      },
+      "sizes": {
+        "1024x1024": 932
+      },
+      "pillow": "13.0.0"
+    },
+    {
+      "archive": "images_002.tar.gz",
+      "md5": "ab07a2d7cbe6f65ddd97b4ed7bde10bf",
+      "files_in_archive": 10000,
+      "kept": 1939,
+      "modes": {
+        "L": 1924,
+        "RGBA": 15
+      },
+      "sizes": {
+        "1024x1024": 1939
+      },
+      "pillow": "13.0.0"
+    },
+    {
+      "archive": "images_003.tar.gz",
+      "md5": "2301d03bde4c246388bad3876965d574",
+      "files_in_archive": 10000,
+      "kept": 2041,
+      "modes": {
+        "L": 2002,
+        "RGBA": 39
+      },
+      "sizes": {
+        "1024x1024": 2041
+      },
+      "pillow": "13.0.0"
+    },
+    {
+      "archive": "images_004.tar.gz",
+      "md5": "9f1b7f5aae01b13f4bc8e2c44a4b8ef6",
+      "files_in_archive": 10000,
+      "kept": 2011,
+      "modes": {
+        "L": 1996,
+        "RGBA": 15
+      },
+      "sizes": {
+        "1024x1024": 2011
+      },
+      "pillow": "13.0.0"
+    },
+    {
+      "archive": "images_005.tar.gz",
+      "md5": "1861f3cd0ef7734df8104f2b0309023b",
+      "files_in_archive": 10000,
+      "kept": 1949,
+      "modes": {
+        "L": 1943,
+        "RGBA": 6
+      },
+      "sizes": {
+        "1024x1024": 1949
+      },
+      "pillow": "13.0.0"
+    },
+    {
+      "archive": "images_006.tar.gz",
+      "md5": "456b53a8b351afd92a35bc41444c58c8",
+      "files_in_archive": 10000,
+      "kept": 1991,
+      "modes": {
+        "L": 1988,
+        "RGBA": 3
+      },
+      "sizes": {
+        "1024x1024": 1991
+      },
+      "pillow": "13.0.0"
+    },
+    {
+      "archive": "images_007.tar.gz",
+      "md5": "1075121ea20a137b87f290d6a4a5965e",
+      "files_in_archive": 10000,
+      "kept": 2276,
+      "modes": {
+        "L": 2270,
+        "RGBA": 6
+      },
+      "sizes": {
+        "1024x1024": 2276
+      },
+      "pillow": "13.0.0"
+    },
+    {
+      "archive": "images_008.tar.gz",
+      "md5": "b61f34cec3aa69f295fbb593cbd9d443",
+      "files_in_archive": 10000,
+      "kept": 2039,
+      "modes": {
+        "L": 2038,
+        "RGBA": 1
+      },
+      "sizes": {
+        "1024x1024": 2039
+      },
+      "pillow": "13.0.0"
+    },
+    {
+      "archive": "images_009.tar.gz",
+      "md5": "442a3caa61ae9b64e61c561294d1e183",
+      "files_in_archive": 10000,
+      "kept": 1858,
+      "modes": {
+        "L": 1855,
+        "RGBA": 3
+      },
+      "sizes": {
+        "1024x1024": 1858
+      },
+      "pillow": "13.0.0"
+    },
+    {
+      "archive": "images_010.tar.gz",
+      "md5": "09ec81c4c31e32858ad8cf965c494b74",
+      "files_in_archive": 10000,
+      "kept": 1898,
+      "modes": {
+        "L": 1898
+      },
+      "sizes": {
+        "1024x1024": 1898
+      },
+      "pillow": "13.0.0"
+    },
+    {
+      "archive": "images_011.tar.gz",
+      "md5": "499aefc67207a5a97692424cf5dbeed5",
+      "files_in_archive": 10000,
+      "kept": 2009,
+      "modes": {
+        "L": 2009
+      },
+      "sizes": {
+        "1024x1024": 2009
+      },
+      "pillow": "13.0.0"
+    },
+    {
+      "archive": "images_012.tar.gz",
+      "md5": "dc9fda1757c2de0032b63347a7d2895c",
+      "files_in_archive": 7121,
+      "kept": 1313,
+      "modes": {
+        "L": 1309,
+        "RGBA": 4
+      },
+      "sizes": {
+        "1024x1024": 1313
+      },
+      "pillow": "13.0.0"
+    }
+  ],
+  "preprocessing": "PIL convert('L'), bilinear resize to 512 x 512, xrv.datasets.normalize(maxval=255)",
+  "torch": "2.15.0+cpu",
+  "torchxrayvision": "1.4.0",
+  "validation": {
+    "overlap_with_original_subset": 186,
+    "max_abs_difference": 2.1781951904387142e-06,
+    "labels_identical_per_patient": true
+  },
+  "python": "3.13.18",
+  "pillow": "13.0.0",
+  "threads": 2,
+  "metadata": "Data_Entry_2017_v2020.csv.gz bundled with TorchXRayVision 1.4.0; labels, view position and sex are identical to those of the original evaluation for all images, patient ages follow this metadata version",
+  "flush_denormal": {
+    "enabled": true,
+    "check": {
+      "part": 12,
+      "images": 4,
+      "max_abs_difference": 0.0,
+      "identical": true
+    },
+    "note": "denormal numbers flushed to zero to accelerate CPU inference; identical scores with and without the setting"
+  },
+  "code": "revision_analysis/rn50_heldout/",
+  "date": "2026-11-10"
+}

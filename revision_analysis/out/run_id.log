@@ -1,0 +1,18 @@
+[    0.7s] DN121 legacy split: training patients 14434 held-out images 59303 held-out patients 16371
+[    0.8s] DN121-All strict: excluded patients with RSNA/Google images: 11880 remaining images 15594
+[    0.8s] RN50 subset: held-out-partition images 186 of 1000
+[    0.8s] DN121-All held-out
+[   96.2s] DN121-All held-out strict
+[  111.4s] DN121-NIH held-out
+[  205.5s] DN121 full cohort
+[  601.8s] RN50 subset
+[  602.6s] RN50 held-out partition: 22256 images of 6161 patients
+[  632.1s] RN50 strict: excluded patients 2255 remaining images 6069
+[  638.5s] RN50 reproduction of stored subset outputs: {'n_overlap': 186, 'max_abs_diff': 1.0799999999866472e-06}
+[  639.0s] DN121 on the library benchmark partition
+[  701.1s] common held-out patients: 11794 images of 3258 patients
+[  736.3s] common held-out: {'RN50-All_minus_DN121-All_macro14': {'diff': 0.03607655375824359, 'ci': (0.024188190142647035, 0.04442964972438188)}, 'RN50-All_minus_DN121-NIH_macro14': {'diff': 0.06694089413000714, 'ci': (0.04962193500782694, 0.07856143573028264)}, 'DN121-All_minus_DN121-NIH_macro14': {'diff': 0.030864340371763554, 'ci': (0.020225599723360018, 0.04028914966028342)}}
+[  793.5s] memorization DN121-NIH {'train_macro': 0.8111919316762999, 'heldout_macro': 0.787336939266254, 'gap': 0.02385499241004585, 'null_lo': -0.01694948746799839, 'null_hi': 0.015750205013965686, 'p_one_sided': 0.001996007984031936, 'n_each': 14434}
+[  850.8s] memorization DN121-All {'train_macro': 0.8192598373564267, 'heldout_macro': 0.8073568315956233, 'gap': 0.011903005760803387, 'null_lo': -0.013034632582964703, 'null_hi': 0.013904002926222476, 'p_one_sided': 0.04790419161676647, 'n_each': 14434}
+[  874.1s] memorization RN50 {'train_macro': 0.8039452047014846, 'heldout_macro': 0.769467009498763, 'gap': 0.03447819520272155, 'null_lo': -0.02595683041457405, 'null_hi': 0.03084115524539099, 'p_one_sided': 0.015968063872255488, 'n_train': 814, 'n_heldout': 186}
+[  874.1s] done
